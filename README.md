@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ShotaroMatsuya/cinematic-reaction/tree/develop.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ShotaroMatsuya/cinematic-reaction/tree/develop)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
