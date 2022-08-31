@@ -123,7 +123,7 @@ jobs:
       - run: echo "Slack notification"
       - slack/notify:
           event: 'always'
-          channel: 'github活動日誌'
+          channel: C02R8V82XDH
           template: ''
           custom: |
             {
