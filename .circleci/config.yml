@@ -116,7 +116,6 @@ jobs:
             else
               aws cloudfront create-invalidation --distribution-id ${DEV_DISTRIBUTION_ID} --paths /\*
             fi
-
   notify-via-slack:
     executor: slack-executor
     steps:
@@ -149,7 +148,7 @@ jobs:
                     },
                     {
                       "type": "mrkdwn",
-                      "text": "*When*:\n(date + '%m/%d/%Y %T')"
+                      "text": "*When*:\n$(date +'%m/%d/%Y %T')"
                     },
                     {
                       "type": "mrkdwn",
@@ -170,13 +169,12 @@ jobs:
                         "type": "plain_text",
                         "text": "View Job"
                       },
-                      "url": "${CIRCLE_BUTTON_URL}"
+                      "url": "${CIRCLE_BUILD_URL}"
                     }
                   ]
                 }
               ]
             }
-
 workflows:
   build_and_deploy:
     jobs:
