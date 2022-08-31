@@ -1,4 +1,5 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ShotaroMatsuya/cinematic-reaction/tree/develop.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ShotaroMatsuya/cinematic-reaction/tree/develop)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ShotaroMatsuya/cinematic-reaction/tree/develop.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ShotaroMatsuya/cinematic-reaction/tree/develop)  
+
 [![CircleCI](https://dl.circleci.com/insights-snapshot/gh/ShotaroMatsuya/cinematic-reaction/develop/build-and-test/badge.svg?window=90d)](https://app.circleci.com/insights/github/ShotaroMatsuya/cinematic-reaction/workflows/build-and-test/overview?branch=develop&reporting-window=last-90-days&insights-snapshot=true)
 
 # Getting Started with Create React App
